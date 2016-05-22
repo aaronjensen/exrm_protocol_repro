@@ -16,12 +16,12 @@ defmodule Foo do
 end
 
 # Change version to 0.0.2 and uncomment this, then `mix release again`
-# defmodule Bar do
-#   defstruct [:x]
+defmodule Bar do
+  defstruct [:x]
 
-#   defimpl Proto do
-#     def go(_) do
-#       IO.puts "In Bar Proto"
-#     end
-#   end
-# end
+  defimpl Proto do
+    def go(_) do
+      IO.puts "In Bar Proto"
+    end
+  end
+end
